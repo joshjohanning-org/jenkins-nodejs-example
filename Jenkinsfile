@@ -81,7 +81,7 @@ pipeline {
       }
 
       steps {
-        echo 'Publishing...'
+        echo 'Publishing....'
       }
     }
   }
