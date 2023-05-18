@@ -1,9 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'twuni/nodejs:12.12.0'
-    }
-  }
+  agent any
 
   stages {
     stage('initialize') {
@@ -81,7 +77,7 @@ pipeline {
       }
 
       steps {
-        echo 'Publishing....'
+        echo 'Publishing...'
       }
     }
   }
